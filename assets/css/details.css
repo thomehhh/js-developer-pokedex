@@ -1,0 +1,124 @@
+.blackcurtain {
+    display: flex;
+    background: rgba(100,100,200,0.3);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 20;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.pokedetails {
+    width: 20rem;
+    height: 25rem;
+    border-radius: 2rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.pokedetails-top {
+    height: 10rem;
+    width: 20rem;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    background: rgba(255,255,255,0.6);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.close {
+    width: 2rem;
+    height: 2rem;
+    min-width: 2rem;
+    max-width: 2rem;
+    border-radius: 50%;
+    background: #922;
+    color: #ddd;
+    font-weight: 700;
+    border: none;
+    text-align: center;
+    align-self: last baseline;
+    margin: 2rem 1rem 0 0;
+
+}
+
+.pokedetails-btm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15rem;
+    width: 20rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0.6) -1%, rgba(255,255,255,1) 30%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.6) -1%,rgba(255,255,255,1) 30%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.6) -1%,rgba(255,255,255,1) 30%);
+}
+
+.pokepic {
+    width: 8rem;
+}
+
+.pokedetailname {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #444;
+    margin-top: 1rem;
+    letter-spacing: .125rem;
+}
+
+.detailtypes {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.125rem;
+    padding: 0;
+    margin: -.25rem;
+
+}
+
+.detailtype {
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+}
+
+.statuscontainer {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding-top: 2rem;
+    width: 18rem;
+    font-size: 0.825rem;
+}
+
+.stsline {
+    display: flex;
+    margin-bottom: 0.3rem;
+}
+
+.stslbl {
+    width: 5rem;
+}
+
+.stsbar {
+    /* border: 1px solid #444; */
+    margin-left: .25rem;
+    color:#eee;
+    padding-left: .2rem;
+}

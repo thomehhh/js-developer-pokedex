@@ -1,3 +1,25 @@
+.top-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.pokesearch {
+    width: 20rem;
+    min-width: 10rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: 1px solid #555;
+    padding: 0 0.825rem;
+}
+
+.pokesearch::placeholder{
+    font-style: italic;
+    opacity: 0.5;
+}
+
 .pokemons {
     display: grid;
     grid-template-columns: 1fr;
